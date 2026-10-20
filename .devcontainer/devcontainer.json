@@ -1,0 +1,24 @@
+{
+    "name": "MAI OOP Lab 02",
+
+    "image": "mcr.microsoft.com/devcontainers/cpp:noble",
+
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-vscode.cpptools",
+                "ms-vscode.cmake-tools"
+            ]
+        }
+    },
+
+    "remoteUser": "vscode",
+
+    "capAdd": [
+        "SYS_PTRACE"
+    ],
+
+    "securityOpt": [
+        "seccomp=unconfined"
+    ]
+}
